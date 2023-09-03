@@ -1,5 +1,5 @@
 <script>
-    import TweetComponent from "./tweetComponent.svelte"
+    import FeedComponent from "./feedComponent.svelte"
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,7 +15,7 @@
             <button class="post-button">POST</button>
         </div>
 
-        <TweetComponent />
+        <FeedComponent />
         
     </section>
 
@@ -68,13 +68,13 @@
         border: none;
         border-radius: 5px;
         box-shadow: 0 2px 1px #ebe7e7;
-        background-color: #9946e0;
+        background-color: #B571E9#9946e0;
         color: white;
     }
 
     .post-button:hover {
         cursor: pointer;
-        background-color: #8f34dd;
+        background-color: #9946e0;
         color: white;
     }
 

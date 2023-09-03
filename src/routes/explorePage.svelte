@@ -15,7 +15,7 @@
         <section class="search">
 
             <input type="search" class="search-bar" placeholder="What are you looking for?">
-            <button class="search-button"></button>
+            <button class="search-button"><i class="fa fa-search"></i></button>
         </section>
 
 
@@ -85,14 +85,15 @@
         border: none;
         border-radius: 5px;
         box-shadow: 0 2px 1px #ebe7e7;
-        background-color: #9946e0;
+        background-color: #B571E9;
         color: white;
         
     }
     .search-button:hover {
         cursor: pointer;
-        background-color: #8f34dd;
+        background-color: #9946e0;
     }
+
     .trending-title {
         position: relative;
         margin-top: 10px;
@@ -109,26 +110,24 @@
     }
     .trending-box {
         position: absolute;
-        margin-top: 5px;
         margin-bottom: 20px;
         margin-left: 15px;
         width: 315px;
         height: 300px;
-        border-radius: 15px;
-        background-color: grey;
-        opacity: 0.35;
+        border-radius: 5px;
     }
     .trending-topic {
         position: relative;
-        margin-top: 17px;
+        margin-top: 10px;
         padding-top: 10px;
         padding-left: 10px;
         height: 30px;
-        color: white;;
-        opacity: 1;
+        border-radius: 5px;
+        background-color: #D7BBF5;
+        color: white;
     }
     .trending-topic:hover {
-        background-color: #47464a;
+        background-color: #DEC9F2;
         opacity: 1;
         cursor: pointer;
     }

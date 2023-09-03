@@ -12,7 +12,7 @@
         <button class="btn"><a href="/messages"><i class="fa fa-comments"></i></a></button>
         <button class="btn"><i class="fa fa-search"></i></button>
         <button class="btn"><a href="/profile"><i class="fa fa-user-circle-o"></i></a></button>
-        <button class="btn"><a href="/"><i class="fa fa-cog"></i></a></button>
+        <button class="btn"><i class="fa fa-cog"></i></button>
     
     </nav>
 
@@ -36,6 +36,11 @@
         margin-bottom: 5px;
         width: 60px;
         height: 60px;
-        background-color: #D4E2D4;
+        border-radius: 2px;
+        background-color: white;
+    }
+
+    .btn:hover {
+        cursor: pointer;
     }
 </style>

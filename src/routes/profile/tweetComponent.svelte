@@ -1,5 +1,5 @@
 <script>
-    import TweetData from "./tweetData.svelte"
+    import FeedData from "./tweetData.svelte"
 </script>
 
 <TweetData>
@@ -23,23 +23,23 @@
 
         <div class="tweet-end">
             
-            <div class="tweet-icon">
-            
-            </div>
+            <button class="tweet-icon">
+                <i class="fa fa-thumbs-o-up"></i>
+            </button>
             <div class="tweet-num">
                 {likes}
             </div>
             
-            <div class="tweet-icon">
-            
-            </div>
+            <button class="tweet-icon">
+                <i class="fa fa-comment"></i>
+            </button>
             <div class="tweet-num">
                 {comments}
             </div>
 
-            <div class="tweet-icon">
-            
-            </div>
+            <button class="tweet-icon">
+                <i class="fa fa-retweet"></i>
+            </button>
             <div class="tweet-num">
                 {retweets}
             </div>
@@ -70,7 +70,7 @@
 
     .tweet-pic {
         position: relative;
-        background-color: green;
+        background-color: #B571E9;
         margin-top: 10px;
         margin-left: 10px;
         width: 40px;
@@ -114,14 +114,19 @@
 
     .tweet-icon {
         position: relative;
-        background-color: yellow;
         width: 30px;
         height: 30px;
         margin-top: 2.5px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 2px 1px #ebe7e7;
+        background-color: #B571E9;
+        color: white;
     }
 
     .tweet-icon:hover {
         cursor: pointer;
+        background-color: #9946e0;
     }
 
     .tweet-num {

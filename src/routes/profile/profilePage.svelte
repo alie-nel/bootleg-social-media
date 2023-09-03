@@ -1,5 +1,5 @@
 <script>
-    import TweetComponent from "../tweetComponent.svelte"
+    import TweetComponent from "./tweetComponent.svelte"
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +21,7 @@
                     </p>
                 <p class="following">Following</p>
                     <p class="tweet-num">
-                        46
+                        754
                 </p>
             </div>
 
@@ -61,7 +61,7 @@
         width: 80px;
         height: 80px;
         border-radius: 40px;
-        background-color: green;
+        background-color: #9946e0;
         margin-left: 20px;
     }
 
@@ -90,10 +90,12 @@
 
     .followers:hover {
         text-decoration: underline;
+        cursor: pointer;
     }
 
     .following:hover {
         text-decoration: underline;
+        cursor: pointer;
     }
 
     .posts-title {

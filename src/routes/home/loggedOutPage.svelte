@@ -13,9 +13,9 @@
 
 <section class="login">
     <h3 class="login-title">LOGIN</h3>
-    <input class="username" placeholder="Username or email">
-        <input class="password" placeholder="Password">
-    <button class="login-button">LOGIN</button>
+    <input class="username" type="input" placeholder="Username or email">
+        <input class="password" type="password" placeholder="Password">
+    <button class="login-button" type="submit">LOGIN</button>
 
 </section>
 

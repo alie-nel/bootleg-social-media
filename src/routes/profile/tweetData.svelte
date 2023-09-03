@@ -3,16 +3,16 @@
         {
             user: '@' + 'sheeky22',
             content: 'Guys my dog fell into the toilet....',
-            likes: 45,
-            comments: 5,
-            retweets: 100
+            likes: 6,
+            comments: 2,
+            retweets: 1
         },
         {
             user: '@' + 'sheeky22',
             content: 'Whoever that guy is who cut in line yesterday.... I will find u',
-            likes: 45,
-            comments: 5,
-            retweets: 100
+            likes: 3,
+            comments: 0,
+            retweets: 0
         }
     ]
 

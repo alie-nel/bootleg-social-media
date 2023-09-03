@@ -1,7 +1,7 @@
 <script>
     import NavBar from "./navBar.svelte"
-    import HomePage from "./homePage.svelte"
-    import LoggedOutPage from "./loggedOutPage.svelte"
+    import HomePage from "./home/homePage.svelte"
+    import LoggedOutPage from "./home/loggedOutPage.svelte"
     import ExplorePage from "./explorePage.svelte"
 
     const loggedOut = false;
