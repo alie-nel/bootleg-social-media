@@ -6,9 +6,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    <section class="home-section">
+    <section class="profile-section">
 
-        <h1 class="home-title">Profile</h1>
+        <h1 class="profile-title">Profile</h1>
         
         <div class="profile-banner">
             <div class="profile-pic"></div>
@@ -33,7 +33,7 @@
     </section>
 
 <style>
-    .home-section {
+    .profile-section {
         position: absolute;
         top: 0;
         left: 0;
@@ -43,13 +43,13 @@
         font-family: 'Roboto', sans-serif;
     }
 
-    .home-title {
+    .profile-title {
         position: relative;
         margin: 0;
         margin-top: 20px;
         margin-bottom: 40px;
         margin-left: 20px;
-        color: #47464a;
+        color: #37186C;
     }
 
     .profile-banner {
@@ -61,7 +61,7 @@
         width: 80px;
         height: 80px;
         border-radius: 40px;
-        background-color: #9946e0;
+        background-color: #6742A6;
         margin-left: 20px;
     }
 
@@ -103,7 +103,7 @@
         margin: 0;
         margin-top: 100px;
         margin-left: 20px;
-        color: #47464a;
+        color: #37186C;
     }
 
 </style>

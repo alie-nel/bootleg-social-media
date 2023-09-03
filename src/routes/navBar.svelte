@@ -25,7 +25,7 @@
         left: 0;
         width: 150px;
         height: 100%;
-        background-color: #D7BBF5;
+        background-color: #37186C;
         box-shadow: 1px 0 1px #ebe7e7;
     }
 
@@ -36,11 +36,21 @@
         margin-bottom: 5px;
         width: 60px;
         height: 60px;
-        border-radius: 2px;
+        border-radius: 5px;
+        border-color: white;
         background-color: white;
     }
 
     .btn:hover {
         cursor: pointer;
     }
+
+    .btn:active {
+        color: #6742A6;
+    }
+
+    a:active {
+        color: #6742A6;
+    }
+
 </style>

@@ -6,21 +6,28 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
+<section class="login-page">
 
-<div class="grey-cover">
+    <div class="grey-cover">
 
-</div>
+    </div>
 
-<section class="login">
-    <h3 class="login-title">LOGIN</h3>
-    <input class="username" type="input" placeholder="Username or email">
-        <input class="password" type="password" placeholder="Password">
-    <button class="login-button" type="submit">LOGIN</button>
+    <section class="login">
+        <h3 class="login-title">LOGIN</h3>
+        <input class="username" type="input" placeholder="Username or email">
+            <input class="password" type="password" placeholder="Password">
+        <button class="login-button" type="submit">LOGIN</button>
+
+    </section>
 
 </section>
 
 
 <style>
+
+    .login-page {
+        position: fixed;
+    }
 
     .grey-cover {
         position: fixed;
@@ -76,18 +83,20 @@
     .login-button {
         margin-top: 20px;
         margin-left: 157px;
-        background-color: #9946e0;
         width: 80px;
         height: 35px;
         border: none;
         border-radius: 5px;
+        background-color: #37186C;
         color: white;
         box-shadow: 0 2px 1px #ebe7e7;
+        transition: background-color 0.2s;
     }
 
     .login-button:hover {
-        background-color: #8f34dd;
         cursor: pointer;
+        color: #6742A6;
+        background-color: #F3ECFF;
     }
 
 </style>

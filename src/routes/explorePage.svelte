@@ -65,7 +65,7 @@
         margin-top: 10px;
         margin-left: 15px;
         font-size: 24px;
-        color: #47464a;
+        color: #37186C;
     }
     .search-bar {
         position: relative;
@@ -85,13 +85,17 @@
         border: none;
         border-radius: 5px;
         box-shadow: 0 2px 1px #ebe7e7;
-        background-color: #B571E9;
+        background-color: #37186C;
         color: white;
-        
+        transition: background-color 0.2s;
     }
     .search-button:hover {
         cursor: pointer;
-        background-color: #9946e0;
+        background-color: #6742A6;
+    }
+
+    .search-button:active {
+        margin-top: 16px;
     }
 
     .trending-title {
@@ -99,7 +103,7 @@
         margin-top: 10px;
         margin-left: 15px;
         font-size: 24px;
-        color: #47464a;
+        color: #37186C;
     }
     
     .trending {
@@ -123,12 +127,14 @@
         padding-left: 10px;
         height: 30px;
         border-radius: 5px;
-        background-color: #D7BBF5;
+        background-color: #37186C;
         color: white;
+        transition: background-color 0.2s;
     }
     .trending-topic:hover {
-        background-color: #DEC9F2;
-        opacity: 1;
+        background-color: #6742A6;
         cursor: pointer;
     }
+
+
 </style>

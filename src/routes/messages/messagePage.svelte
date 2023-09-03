@@ -6,7 +6,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    <section class="home-section">
+    <section class="messages-section">
 
         <h1 class="messages-title">Messages</h1>
 
@@ -15,7 +15,7 @@
     </section>
 
 <style>
-    .home-section {
+    .messages-section {
         position: absolute;
         top: 0;
         left: 0;
@@ -33,7 +33,7 @@
         margin-top: 20px;
         margin-left: 20px;
         margin-bottom: 20px;
-        color: #47464a;
+        color: #37186C;
     }
 
 </style>

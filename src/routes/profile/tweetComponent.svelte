@@ -1,5 +1,5 @@
 <script>
-    import FeedData from "./tweetData.svelte"
+    import TweetData from "./tweetData.svelte"
 </script>
 
 <TweetData>
@@ -70,12 +70,12 @@
 
     .tweet-pic {
         position: relative;
-        background-color: #B571E9;
         margin-top: 10px;
         margin-left: 10px;
         width: 40px;
         height: 40px;
         border-radius: 20px;
+        background-color: #6742A6;
     }
 
     .tweet-user {
@@ -119,14 +119,18 @@
         margin-top: 2.5px;
         border: none;
         border-radius: 5px;
-        box-shadow: 0 2px 1px #ebe7e7;
-        background-color: #B571E9;
-        color: white;
+        background-color: white;
+        color: #37186C;
+        transition: color 0.2s;
     }
 
     .tweet-icon:hover {
         cursor: pointer;
-        background-color: #9946e0;
+        color: #78619E;
+    }
+
+    .tweet-icon:active {
+        margin-top: 3px;
     }
 
     .tweet-num {

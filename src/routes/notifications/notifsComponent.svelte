@@ -1,83 +1,85 @@
 <script>
-    import MessageData from "./messageData.svelte"
+    import NotifsData from "./notifsData.svelte"
     
 </script>
 
-<MessageData>
-    <article slot="message" let:user let:content class="message">
+<NotifsData>
+    <article slot="notifs" let:user let:content class="notifs">
     
-        <div class="message-head">
-            <div class="message-pic">
+        <div class="notifs-head">
+            <div class="unread">
 
             </div>
-        
-            <div class="message-user">
+
+            <div class="notifs-user">
             {user}
             </div>
         </div>
 
-        <div class="message-mid">
-            <div class="message-content">
+        <div class="notifs-mid">
+            <div class="notifs-content">
                 {content}
             </div>
         </div>
 
     </article>
-</MessageData>
+</NotifsData>
 
 <style>
-    .message {
+    .notifs {
         margin-top: 15px;
         margin-bottom: 10px;
         margin-left: 10px;
+        padding-bottom: 5px;
         width: 400px;
         height: 100px;
         background-color: white;
+        transition: background-color 0.2s;
     }
 
-    .message:hover {
+    .notifs:hover {
         background-color: #e9e8ea;
         cursor: pointer;
     }
 
-    .message-head {
+    .notifs-head {
         display: flex;
         position: absolute;
         width: 400px;
         height: 50px;
     }
 
-    .message-pic {
+    .unread {
         position: relative;
-        background-color: green;
-        margin-top: 10px;
+        background-color: #6742A6;
+        margin-top: 22px;
         margin-left: 10px;
-        width: 35px;
-        height: 35px;
-        border-radius: 20px;
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
     }
 
-    .message-user {
+    .notifs-user {
         position: relative;
         padding-top: 17px;
         margin-left: 10px;
         color: #47464a;
     }
 
-    .message-mid {
+    .notifs-mid {
         margin-top: 50px;
         position: absolute;
         display: block;
         width: 550px;
     }
 
-    .message-content {
+    .notifs-content {
         position: relative;
         margin-top: 10px;
         margin-bottom: 5px;
         margin-left: 12px;
         margin-right: 15px;
-        width: 400px;
+        width: 360px;
         height: 100px;
         color: #47464a;
         font-size: 14px;

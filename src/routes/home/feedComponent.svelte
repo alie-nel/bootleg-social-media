@@ -7,7 +7,6 @@
     
         <div class="tweet-head">
             <div class="tweet-pic">
-
             </div>
         
             <div class="tweet-user">
@@ -70,7 +69,7 @@
 
     .tweet-pic {
         position: relative;
-        background-color: #B571E9;
+        background-color: #6742A6;
         margin-top: 10px;
         margin-left: 10px;
         width: 40px;
@@ -119,14 +118,18 @@
         margin-top: 2.5px;
         border: none;
         border-radius: 5px;
-        box-shadow: 0 2px 1px #ebe7e7;
-        background-color: #9946e0;
-        color: white;
+        background-color: white;
+        color: #37186C;
+        transition: color 0.2s;
     }
 
     .tweet-icon:hover {
         cursor: pointer;
-        background-color: #8f34dd;
+        color: #78619E;
+    }
+
+    .tweet-icon:active {
+        margin-top: 3px;
     }
 
     .tweet-num {

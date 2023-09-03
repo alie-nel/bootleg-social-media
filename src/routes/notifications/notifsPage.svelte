@@ -1,21 +1,21 @@
 <script>
-    import MessageComponent from "./messageComponent.svelte"
+    import NotifsComponent from "./notifsComponent.svelte"
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    <section class="home-section">
+    <section class="notifs-section">
 
-        <h1 class="messages-title">Messages</h1>
+        <h1 class="notifs-title">Notifications</h1>
 
-        <MessageComponent />
+        <NotifsComponent />
         
     </section>
 
 <style>
-    .home-section {
+    .notifs-section {
         position: absolute;
         top: 0;
         left: 0;
@@ -27,7 +27,7 @@
         font-family: 'Roboto', sans-serif;
     }
 
-    .messages-title {
+    .notifs-title {
         position: relative;
         margin: 0;
         margin-top: 20px;

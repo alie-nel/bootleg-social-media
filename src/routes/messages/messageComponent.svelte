@@ -33,6 +33,7 @@
         width: 400px;
         height: 100px;
         background-color: white;
+        transition: background-color 0.2s;
     }
 
     .message:hover {
@@ -49,7 +50,7 @@
 
     .message-pic {
         position: relative;
-        background-color: green;
+        background-color: #6742A6;
         margin-top: 10px;
         margin-left: 10px;
         width: 35px;
@@ -77,7 +78,7 @@
         margin-bottom: 5px;
         margin-left: 12px;
         margin-right: 15px;
-        width: 400px;
+        width: 360px;
         height: 100px;
         color: #47464a;
         font-size: 14px;

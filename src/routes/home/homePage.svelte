@@ -35,7 +35,7 @@
         margin: 0;
         margin-top: 20px;
         margin-left: 20px;
-        color: #47464a;
+        color: #37186C;
     }
 
     .new-post {
@@ -54,9 +54,10 @@
         box-shadow: 0 2px 1px #ebe7e7;
     }
 
-    .post-text::placeholder {
+    .post-text:placeholder {
         line-height: 5px;
         font-size: 14px;
+        vertical-align: top;
     }
 
     .post-button {
@@ -68,14 +69,18 @@
         border: none;
         border-radius: 5px;
         box-shadow: 0 2px 1px #ebe7e7;
-        background-color: #B571E9#9946e0;
+        background-color: #37186C;
         color: white;
+        transition: background-color 0.2s;
     }
 
     .post-button:hover {
         cursor: pointer;
-        background-color: #9946e0;
-        color: white;
+        background-color: #6742A6;
+    }
+
+    .post-button:active {
+        margin-top: 91px;
     }
 
 </style>
