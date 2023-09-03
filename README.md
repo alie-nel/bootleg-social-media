@@ -1,6 +1,6 @@
 # Bootleg Twitter
 
-This repo is my continuation of the botleg twitter frontend, started at the CISSA first year hackathon.
+This repo is my continuation of a bootleg social media website frontend.
 
 ## To run
 
