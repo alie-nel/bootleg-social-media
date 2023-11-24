@@ -1,6 +1,6 @@
-# Bootleg Twitter
+# Bootleg Social Media
 
-This repo is my continuation of a bootleg social media website frontend.
+This repo is my bootleg social media website.
 
 ## To run
 
