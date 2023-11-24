@@ -1,6 +1,6 @@
 # Bootleg Social Media
 
-This repo is my bootleg social media website.
+This repo contains the code for my social media website, inspired by Twitter/X.
 
 ## To run
 
