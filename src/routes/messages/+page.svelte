@@ -1,6 +1,6 @@
 <script>
-    import NavBar from "../navBar.svelte"
-    import MessagePage from "./messagePage.svelte"
+    import NavBar from "../../components/navBar.svelte"
+    import MessagePage from "../../components/messages/messagePage.svelte"
 </script>
 
 <NavBar />

@@ -27,11 +27,11 @@
 
 <style>
     .message {
-        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
         margin-bottom: 10px;
-        margin-left: 10px;
         width: 400px;
-        height: 100px;
+        box-sizing: border-box;
         background-color: white;
         transition: background-color 0.2s;
     }
@@ -43,45 +43,33 @@
 
     .message-head {
         display: flex;
-        position: absolute;
-        width: 400px;
+        align-items: center;
         height: 50px;
     }
 
     .message-pic {
-        position: relative;
-        background-color: #6742A6;
-        margin-top: 10px;
         margin-left: 10px;
         width: 35px;
         height: 35px;
         border-radius: 20px;
+        background-color: #6742A6;
     }
 
     .message-user {
-        position: relative;
-        padding-top: 17px;
         margin-left: 10px;
+        font-size: 1rem;
         color: #47464a;
     }
 
     .message-mid {
-        margin-top: 50px;
-        position: absolute;
-        display: block;
-        width: 550px;
+        display: flex;
     }
 
     .message-content {
-        position: relative;
-        margin-top: 10px;
+        padding: 15px 10px 25px 10px;
         margin-bottom: 5px;
-        margin-left: 12px;
-        margin-right: 15px;
-        width: 360px;
-        height: 100px;
+        font-size: 0.9rem;
         color: #47464a;
-        font-size: 14px;
     }
 
 </style>

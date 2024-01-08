@@ -1,7 +1,7 @@
 <script>
-    import NavBar from "../navBar.svelte"
-    import ProfilePage from "./profilePage.svelte"
-    import ExplorePage from "../explorePage.svelte"
+    import NavBar from "../../components/navBar.svelte"
+    import ProfilePage from "../../components/profile/profilePage.svelte"
+    import ExplorePage from "../../components/explorePage.svelte"
 </script>
 
 <NavBar />

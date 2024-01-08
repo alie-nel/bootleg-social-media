@@ -9,9 +9,9 @@
             <div class="tweet-pic">
             </div>
         
-            <div class="tweet-user">
+            <p class="tweet-user">
             {user}
-            </div>
+            </p>
         </div>
 
         <div class="tweet-mid">
@@ -25,23 +25,23 @@
             <button class="tweet-icon">
                 <i class="fa fa-thumbs-o-up"></i>
             </button>
-            <div class="tweet-num">
+            <p class="tweet-num">
                 {likes}
-            </div>
+            </p>
             
             <button class="tweet-icon">
                 <i class="fa fa-comment"></i>
             </button>
-            <div class="tweet-num">
+            <p class="tweet-num">
                 {comments}
-            </div>
+            </p>
 
             <button class="tweet-icon">
                 <i class="fa fa-retweet"></i>
             </button>
-            <div class="tweet-num">
+            <p class="tweet-num">
                 {retweets}
-            </div>
+            </p>
         </div>
 
     </article>
@@ -49,11 +49,12 @@
 
 <style>
     .tweet {
-        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        min-width: 350px;
+        width: 40vw;
         margin-bottom: 10px;
-        margin-left: 20px;
-        width: 550px;
-        height: 210px;
+        box-sizing: border-box;
         border: 1.5px solid #a7a8a4;
         border-radius: 5px;
         box-shadow: 0 2px 1px #ebe7e7;
@@ -62,60 +63,47 @@
 
     .tweet-head {
         display: flex;
-        position: absolute;
-        width: 500px;
+        align-items: center;
+        gap: 7px;
         height: 50px;
+        margin-left: 5px;
     }
 
     .tweet-pic {
-        position: relative;
-        background-color: #6742A6;
-        margin-top: 10px;
-        margin-left: 10px;
+        background-color: var(--medium-purple);
         width: 40px;
         height: 40px;
         border-radius: 20px;
     }
 
     .tweet-user {
-        position: relative;
-        padding-top: 20px;
-        margin-left: 10px;
+        font-size: 1rem;
         color: #47464a;
     }
 
     .tweet-mid {
-        margin-top: 50px;
-        position: absolute;
-        display: block;
-        width: 550px;
+        min-height: 50px;
+        padding: 15px 10px;
+        border-top: 1px solid #a7a8a4;
         border-bottom: 1px solid #a7a8a4;
     }
 
     .tweet-content {
-        position: relative;
-        margin-top: 10px;
-        margin-bottom: 5px;
-        margin-left: 12px;
-        margin-right: 15px;
-        width: 500px;
-        height: 100px;
         color: #47464a;
-        font-size: 15px;
+        font-size: 1rem;
     }
 
     .tweet-end {
-        position: absolute;
         display: flex;
-        margin-top: 170px;
-        padding-left: 10px;
+        align-items: center;
+        gap: 10px;
+        margin-left: 5px;
+        height: 40px;
     }
 
     .tweet-icon {
-        position: relative;
-        width: 30px;
-        height: 30px;
-        margin-top: 2.5px;
+        width: 20px;
+        height: 20px;
         border: none;
         border-radius: 5px;
         background-color: white;
@@ -129,18 +117,11 @@
     }
 
     .tweet-icon:active {
-        margin-top: 3px;
+        margin-top: 2px;
     }
 
     .tweet-num {
-        position: relative;
-        width: 30px;
-        height: 25px;
-        margin-right: 10px;
-        margin-top: 5px;
-        padding-top: 3px;
-        text-align: center;
-        font-size: 14px;
+        font-size: 0.85rem;
         color: #47464a;
     }
 </style>

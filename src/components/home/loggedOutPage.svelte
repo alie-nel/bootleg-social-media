@@ -3,7 +3,7 @@
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
 <section class="login-page">
@@ -25,24 +25,24 @@
 
 <style>
 
-    .login-page {
-        position: fixed;
-    }
+  .login-page {
+       position: fixed;
+  }
 
-    .grey-cover {
+  .grey-cover {
         position: fixed;
-        z: 9;
+        z-index: 10;
         top: 0;
         left: 0;
-        right: 0;
-        bottom: 0;
+        width: 100%;
+        height: 100%;
         background-color: grey;
         opacity: 0.2;
     }
 
     .login {
         position: absolute;
-        z: 90;
+        z-index: 10;
         margin-top: 70px;
         margin-left: 430px;
         width: 400px;

@@ -18,6 +18,13 @@
 
 </script>
 
-{#each tweetData as tweet (tweet)}
-    <slot name="tweet" user={tweet.user} content={tweet.content} likes={tweet.likes} comments={tweet.comments} retweets={tweet.retweets} />
+{#each tweetData as tweet}
+    <slot
+        name="tweet"
+        user={tweet.user}
+        content={tweet.content}
+        likes={tweet.likes}
+        comments={tweet.comments}
+        retweets={tweet.retweets}
+    />
 {/each}

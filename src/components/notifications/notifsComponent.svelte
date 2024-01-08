@@ -4,15 +4,14 @@
 </script>
 
 <NotifsData>
-    <article slot="notifs" let:user let:content class="notifs">
+    <div id="notifs" slot="notifs" let:title let:content class="notifs">
     
         <div class="notifs-head">
-            <div class="unread">
-
+            <div id="unread" class="unread">
             </div>
 
-            <div class="notifs-user">
-            {user}
+            <div class="notifs-title">
+                {title}
             </div>
         </div>
 
@@ -22,18 +21,16 @@
             </div>
         </div>
 
-    </article>
+    </div>
 </NotifsData>
 
 <style>
     .notifs {
-        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
         margin-bottom: 10px;
-        margin-left: 10px;
-        padding-bottom: 5px;
         width: 400px;
-        height: 100px;
-        background-color: white;
+        box-sizing: border-box;
         transition: background-color 0.2s;
     }
 
@@ -44,45 +41,32 @@
 
     .notifs-head {
         display: flex;
-        position: absolute;
-        width: 400px;
+        align-items: center;
         height: 50px;
     }
 
     .unread {
-        position: relative;
-        background-color: #6742A6;
-        margin-top: 22px;
         margin-left: 10px;
         width: 10px;
         height: 10px;
         border-radius: 5px;
+        background-color: #6742A6;
     }
 
-    .notifs-user {
-        position: relative;
-        padding-top: 17px;
+    .notifs-title {
         margin-left: 10px;
+        font-size: 1rem;
         color: #47464a;
     }
 
     .notifs-mid {
-        margin-top: 50px;
-        position: absolute;
-        display: block;
-        width: 550px;
+        display: flex;
     }
 
     .notifs-content {
-        position: relative;
-        margin-top: 10px;
-        margin-bottom: 5px;
-        margin-left: 12px;
-        margin-right: 15px;
-        width: 360px;
-        height: 100px;
+        padding: 15px 10px 25px 10px;
         color: #47464a;
-        font-size: 14px;
+        font-size: 0.9rem;
     }
 
 </style>

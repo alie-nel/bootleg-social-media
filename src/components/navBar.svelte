@@ -1,5 +1,4 @@
 <script>
-	import Button from "./button.svelte"
    
 </script>
 
@@ -10,35 +9,39 @@
         <button class="btn"><a href="/"><i class="fa fa-home"></i></a></button>
         <button class="btn"><a href="/notifications"><i class="fa fa-bell-o"></i></a></button>
         <button class="btn"><a href="/messages"><i class="fa fa-comments"></i></a></button>
-        <button class="btn"><i class="fa fa-search"></i></button>
+        <button class="btn"><a href="/"><i class="fa fa-search"></i></button>
         <button class="btn"><a href="/profile"><i class="fa fa-user-circle-o"></i></a></button>
-        <button class="btn"><i class="fa fa-cog"></i></button>
+        <button class="btn"><a href="/"><i class="fa fa-cog"></i></button>
     
     </nav>
 
 <style>
+
     nav {
         position: fixed;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: end;
         top: 0;
         left: 0;
-        width: 150px;
-        height: 100%;
+        min-width: 90px;
+        width: 8vw;
+        height: 100vh;
         background-color: #37186C;
         box-shadow: 1px 0 1px #ebe7e7;
     }
 
     .btn {
-        top: 0;
-        margin-left: 75px;
-        margin-top: 25px;
-        margin-bottom: 5px;
-        width: 60px;
-        height: 60px;
-        border-radius: 5px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-right: 1rem;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 0.5rem;
         border-color: white;
         background-color: white;
+        align-items: left;
     }
 
     .btn:hover {
@@ -46,10 +49,6 @@
     }
 
     .btn:active {
-        color: #6742A6;
-    }
-
-    a:active {
         color: #6742A6;
     }
 
