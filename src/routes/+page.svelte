@@ -18,7 +18,6 @@
     {/if}
 
     <HomePage />
-    <ExplorePage/>
     <NavBar />
     
 </div>

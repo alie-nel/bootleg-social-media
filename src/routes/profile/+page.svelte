@@ -6,4 +6,3 @@
 
 <NavBar />
 <ProfilePage/>
-<ExplorePage/>
