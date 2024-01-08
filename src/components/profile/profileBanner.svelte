@@ -1,5 +1,10 @@
 <script>
-
+  const profileData = {
+    user: 'sheeky22',
+    bio: 'Welcome to my page!',
+    followers: 46,
+    following: 754,
+  }
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -8,18 +13,18 @@
 
   <div class="profile-banner">
     <div class="profile-pic"></div>
-    <h3 class="username">sheeky22</h3>
-    <p class="bio">Welcome to my page!</p>
+    <h3 class="username">{profileData.user}</h3>
+    <p class="bio">{profileData.bio}</p>
 
     <div class="numbers">
       <p class="followers">Followers</p>
           <p class="tweet-num">
-              46
+              {profileData.followers}
           </p>
       <p class="following">Following</p>
           <p class="tweet-num">
-              754
-      </p>
+              {profileData.following}
+          </p>
     </div>
   </div>
 

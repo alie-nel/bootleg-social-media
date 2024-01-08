@@ -2,7 +2,7 @@
     const tweetData = [
         {
             user: '@' + '__erastime',
-            content: 'I COULD NOT GET TAYLOR SWIFT TICKETS I CANNOT DO THIS ANYMORE',
+            content: 'I COULD NOT GET TICKETS I CANNOT DO THIS ANYMORE',
             likes: 45,
             comments: 5,
             retweets: 123

@@ -11,7 +11,7 @@
         <button class="btn"><a href="/messages"><i class="fa fa-comments"></i></a></button>
         <button class="btn"><a href="/explore"><i class="fa fa-search"></i></button>
         <button class="btn"><a href="/profile"><i class="fa fa-user-circle-o"></i></a></button>
-        <button class="btn"><a href="/"><i class="fa fa-cog"></i></button>
+        <button class="btn"><i class="fa fa-cog"></i></button>
     
     </nav>
 
