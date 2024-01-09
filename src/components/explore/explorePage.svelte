@@ -20,19 +20,18 @@
 
 <style>
     .explore {
-        margin-left: 200px;
         width: 350px;
         font-family: 'Roboto', sans serif;
     }
 
     .search-title {
         font-size: 1.5rem;
-        color: #37186C;
+        color: var(--dark-purple);
     }
 
     .trending-title {
         font-size: 1.5rem;
-        color: #37186C;
+        color: var(--dark-purple);
     }
 
 </style>

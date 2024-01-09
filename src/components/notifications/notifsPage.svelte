@@ -18,15 +18,21 @@
 <style>
     .notifs-section {
         height: 100vh;
-        margin-left: 200px;
         width: 410px;
-        border-right: 1px solid #a7a8a4;
+        border-right: 1px solid var(--border-grey);
         font-family: 'Roboto', sans-serif;
     }
 
     .notifs-title {
         margin-left: 10px;
-        color: #47464a;
+        color: var(--dark-purple);
+    }
+
+    @media (max-width: 600px) {
+        .notifs-section {
+            width: 360px;
+            border-right: none;
+        }
     }
 
 </style>

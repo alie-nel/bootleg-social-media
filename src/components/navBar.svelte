@@ -25,11 +25,10 @@
         align-items: end;
         top: 0;
         left: 0;
-        min-width: 90px;
-        width: 8vw;
+        width: 10vw;
         height: 100vh;
-        background-color: #37186C;
-        box-shadow: 1px 0 1px #ebe7e7;
+        background-color: var(--dark-purple);
+        box-shadow: 1px 0 1px var(--shadow-grey);
     }
 
     .btn {
@@ -40,6 +39,7 @@
         height: 3rem;
         border-radius: 0.5rem;
         border-color: white;
+        color: var(--dark-purple);
         background-color: white;
         align-items: left;
     }
@@ -48,8 +48,14 @@
         cursor: pointer;
     }
 
-    a:active {
-        color: #6742A6;
+    .btn:active, a:active {
+        color: var(--medium-purple);
+    }
+
+    @media (max-width: 900px) {
+        nav {
+            width: 90px;
+        }
     }
 
 </style>

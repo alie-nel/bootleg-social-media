@@ -18,7 +18,6 @@
 
 <style>
     .home-section {
-        margin-left: 200px;
         min-width: 350px;
         width: 40vw;
         font-family: 'Roboto', sans-serif;

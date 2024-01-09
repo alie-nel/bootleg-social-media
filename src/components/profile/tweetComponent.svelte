@@ -55,9 +55,9 @@
         width: 40vw;
         margin-bottom: 10px;
         box-sizing: border-box;
-        border: 1.5px solid #a7a8a4;
+        border: 1.5px solid var(--border-grey);
         border-radius: 5px;
-        box-shadow: 0 2px 1px #ebe7e7;
+        box-shadow: 0 2px 1px var(--shadow-grey);
         background-color: white;
     }
 
@@ -77,18 +77,18 @@
     }
 
     .tweet-user {
-        color: #47464a;
+        color: var(--text-grey);
     }
 
     .tweet-mid {
         min-height: 50px;
         padding: 15px 10px;
-        border-top: 1px solid #a7a8a4;
-        border-bottom: 1px solid #a7a8a4;
+        border-top: 1px solid var(--border-grey);
+        border-bottom: 1px solid var(--border-grey);
     }
 
     .tweet-content {
-        color: #47464a;
+        color: var(--text-grey);
         font-size: 15px;
     }
 
@@ -106,13 +106,13 @@
         border: none;
         border-radius: 5px;
         background-color: white;
-        color: #37186C;
+        color: var(--dark-purple);
         transition: color 0.2s;
     }
 
     .tweet-icon:hover {
         cursor: pointer;
-        color: #78619E;
+        color: var(--hover-purple);
     }
 
     .tweet-icon:active {
@@ -121,6 +121,6 @@
 
     .tweet-num {
         font-size: 14px;
-        color: #47464a;
+        color: var(--text-grey);
     }
 </style>

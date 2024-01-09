@@ -28,14 +28,14 @@
         height: 40px;
         font-size: 1rem;
         border-radius: 5px;
-        background-color: #37186C;
+        background-color: var(--dark-purple);
         color: white;
         transition: background-color 0.2s;
         box-sizing: border-box;
     }
 
     .trending-topic:hover {
-        background-color: #6742A6;
+        background-color: var(--medium-purple);
         cursor: pointer;
     }
 

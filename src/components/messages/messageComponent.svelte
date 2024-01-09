@@ -37,7 +37,7 @@
     }
 
     .message:hover {
-        background-color: #e9e8ea;
+        background-color: var(--hover-grey);
         cursor: pointer;
     }
 
@@ -52,13 +52,13 @@
         width: 35px;
         height: 35px;
         border-radius: 20px;
-        background-color: #6742A6;
+        background-color: var(--medium-purple);
     }
 
     .message-user {
         margin-left: 10px;
         font-size: 1rem;
-        color: #47464a;
+        color: var(--text-grey);
     }
 
     .message-mid {
@@ -69,7 +69,13 @@
         padding: 15px 10px 25px 10px;
         margin-bottom: 5px;
         font-size: 0.9rem;
-        color: #47464a;
+        color: var(--text-grey);
+    }
+
+    @media (max-width: 600px) {
+        .message {
+            width: 350px;
+        }
     }
 
 </style>

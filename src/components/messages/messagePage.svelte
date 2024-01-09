@@ -16,16 +16,22 @@
 
 <style>
     .messages-section {
-        margin-left: 200px;
         width: 410px;
         height: 100vh;
-        border-right: 1px solid #a7a8a4;
+        border-right: 1px solid var(--border-grey);
         font-family: 'Roboto', sans-serif;
     }
 
     .messages-title {
         margin-left: 10px;
         color: var(--dark-purple);
+    }
+
+    @media (max-width: 600px) {
+        .messages-section {
+            width: 360px;
+            border-right: none;
+        }
     }
 
 </style>

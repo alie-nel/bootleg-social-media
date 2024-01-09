@@ -19,9 +19,9 @@
     width: 40vw;
     margin-bottom: 10px;
     box-sizing: border-box;
-    border: 1.5px solid #a7a8a4;
+    border: 1.5px solid var(--border-grey);
     border-radius: 7px;
-    box-shadow: 0 2px 1px #ebe7e7;
+    box-shadow: 0 2px 1px var(--shadow-grey);
     background-color: white;
   }
 

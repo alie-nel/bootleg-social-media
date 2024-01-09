@@ -4,4 +4,20 @@
 </script>
 
 <NavBar />
-<MessagePage />
+
+<div class="message-page">
+    <MessagePage />
+</div>
+
+<style>
+    .message-page {
+        display: flex;
+        margin-left: 17vw;
+    }
+
+    @media (max-width: 600px) {
+        .message-page {
+            justify-content: center;
+        }
+    }
+</style>

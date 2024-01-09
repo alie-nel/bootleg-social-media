@@ -1,18 +1,13 @@
 <script>
     import NotifsData from "./notifsData.svelte"
     
-    let hidden = false;
-    
-    const markRead = () => {
-        hidden = !hidden;
-    }
 </script>
 
 <NotifsData>
-    <div id="notifs" slot="notifs" let:title let:content class="notifs" on:click={markRead}>
+    <div id="notifs" slot="notifs" let:title let:content class="notifs">
     
         <div class="notifs-head">
-            <div id="unread" class="unread" class:hidden>
+            <div id="unread" class="unread">
             </div>
 
             <div class="notifs-title">
@@ -40,7 +35,7 @@
     }
 
     .notifs:hover {
-        background-color: #e9e8ea;
+        background-color: var(--hover-grey);
         cursor: pointer;
     }
 
@@ -55,13 +50,13 @@
         width: 10px;
         height: 10px;
         border-radius: 5px;
-        background-color: #6742A6;
+        background-color: var(--medium-purple);
     }
 
     .notifs-title {
         margin-left: 10px;
         font-size: 1rem;
-        color: #47464a;
+        color: var(--text-grey);
     }
 
     .notifs-mid {
@@ -70,12 +65,14 @@
 
     .notifs-content {
         padding: 15px 10px 25px 10px;
-        color: #47464a;
+        color: var(--text-grey);
         font-size: 0.9rem;
     }
 
-    .hidden {
-        display: none;
+    @media (max-width: 600px) {
+        .notifs {
+            width: 350px;
+        }
     }
 
 </style>

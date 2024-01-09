@@ -20,16 +20,15 @@
 
 <style>
     .profile-section {
-        margin-left: 200px;
         font-family: 'Roboto', sans-serif;
     }
 
     .profile-title {
-        color: #37186C;
+        color: var(--dark-purple);
     }
 
     .posts-title {
-        color: #37186C;
+        color: var(--dark-purple);
     }
 
 </style>

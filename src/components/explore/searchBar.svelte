@@ -14,28 +14,28 @@
     
     .search-bar {
         width: 260px;
-        height: 40px;
+        height: 45px;
         margin-bottom: 50px;
         font-size: 0.9rem;
-        border: 1.2px solid #a7a8a4;
+        border: 1.2px solid var(--border-grey);
         border-radius: 5px;
-        box-shadow: 0 2px 1px #ebe7e7;
+        box-shadow: 0 2px 1px var(--shadow-grey);
     }
     .search-button {
         margin-left: 5px;
-        width: 40px;
-        height: 40px;
+        width: 45px;
+        height: 45px;
         border: none;
         border-radius: 5px;
-        box-shadow: 0 2px 1px #ebe7e7;
-        background-color: #37186C;
+        box-shadow: 0 2px 1px var(--shadow-grey);
+        background-color: var(--dark-purple);
         color: white;
         transition: background-color 0.2s;
         box-sizing: border-box;
     }
     .search-button:hover {
         cursor: pointer;
-        background-color: #6742A6;
+        background-color: var(--medium-purple);
     }
 
     .search-button:active {

@@ -40,7 +40,7 @@
       width: 80px;
       height: 80px;
       border-radius: 40px;
-      background-color: #6742A6;
+      background-color: var(--medium-purple);
   }
 
     .username {
