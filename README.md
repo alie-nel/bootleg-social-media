@@ -1,4 +1,4 @@
-# Bootleg Social Media
+# Social Media Site
 
 This repo contains the code for my social media website, inspired by Twitter/X.
 
