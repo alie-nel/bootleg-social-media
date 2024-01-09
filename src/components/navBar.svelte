@@ -48,7 +48,7 @@
         cursor: pointer;
     }
 
-    .btn:active {
+    a:active {
         color: #6742A6;
     }
 

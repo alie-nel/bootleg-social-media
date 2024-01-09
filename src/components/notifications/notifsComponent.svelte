@@ -1,13 +1,18 @@
 <script>
     import NotifsData from "./notifsData.svelte"
     
+    let hidden = false;
+    
+    const markRead = () => {
+        hidden = !hidden;
+    }
 </script>
 
 <NotifsData>
-    <div id="notifs" slot="notifs" let:title let:content class="notifs">
+    <div id="notifs" slot="notifs" let:title let:content class="notifs" on:click={markRead}>
     
         <div class="notifs-head">
-            <div id="unread" class="unread">
+            <div id="unread" class="unread" class:hidden>
             </div>
 
             <div class="notifs-title">
@@ -67,6 +72,10 @@
         padding: 15px 10px 25px 10px;
         color: #47464a;
         font-size: 0.9rem;
+    }
+
+    .hidden {
+        display: none;
     }
 
 </style>

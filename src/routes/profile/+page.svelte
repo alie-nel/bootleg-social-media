@@ -4,5 +4,14 @@
     import ExplorePage from "../../components/explore/explorePage.svelte"
 </script>
 
-<NavBar />
-<ProfilePage/>
+<div class="profile-page">
+    <NavBar />
+    <ProfilePage />
+    <ExplorePage />
+</div>
+
+<style>
+    .profile-page {
+        display: flex;
+    }
+</style>
